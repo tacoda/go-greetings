@@ -31,7 +31,7 @@ Add code to `hello.go` and run
 ## Return and Handle an Error
 
 - Add code to `greetings.go`
-- Add code to `hello.go` and run
+- Add code to `hello.go`
 
 ```sh
 cd hello
@@ -47,5 +47,15 @@ go run .
 cd hello
 go run .
 go run .
+go run .
+```
+
+## Return Greetings for Multiple People
+
+- Add code to `greetings.go`
+- Add code to `hello.go`
+
+```sh
+cd hello
 go run .
 ```
