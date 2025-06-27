@@ -69,3 +69,20 @@ cd greetings
 go test
 go test -v
 ```
+
+## Compile and Install the Application
+
+```sh
+cd hello
+go build
+./hello
+
+go list -f '{{.Target}}'
+
+export PATH=$PATH:/path/to/your/install/directory
+# OR
+go env -w GOBIN=/path/to/your/bin
+
+go install
+hello
+```
