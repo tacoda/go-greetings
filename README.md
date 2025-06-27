@@ -59,3 +59,13 @@ go run .
 cd hello
 go run .
 ```
+
+## Add a Test
+
+- Add a `greetings_test.go` file
+
+```sh
+cd greetings
+go test
+go test -v
+```
