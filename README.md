@@ -37,3 +37,15 @@ Add code to `hello.go` and run
 cd hello
 go run .
 ```
+
+## Return a Random Greeting
+
+- Add code to `greetings.go`
+- Add code to `hello.go`
+
+```sh
+cd hello
+go run .
+go run .
+go run .
+```
